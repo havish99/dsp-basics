@@ -8,4 +8,4 @@ h,fs=sf.read('transfer.wav')
 
 y=np.convolve(x,h)
 
-sf.write('Labrat.wav',y,fs)
+sf.write('output.wav',y,fs)
